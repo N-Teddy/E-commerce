@@ -8,7 +8,7 @@ import { GiHeadphones } from "react-icons/gi";
 
 export default function Aside() {
      return (
-          <aside>
+          <aside className={`${styles.aside}`}>
                <div className={` flex flex-wrap w-full `}>
                     <section className={`mb-9 bg-white w-full ${styles.categories}`}>
                          <div>

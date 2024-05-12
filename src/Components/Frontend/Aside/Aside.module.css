@@ -1,5 +1,6 @@
-aside {
+.aside {
      width: 224px;
+     flex-shrink: 0;
 }
 
 .categories {
